@@ -10,7 +10,11 @@
 </head>
 
 <body>
-    <?php require('header.php'); ?>
+    <?php require('header.php');
+    session_start(); 
+    echo "utilisateur connecté :".$_SESSION['utilisateur'];
+    
+    echo "<form action='logout.php' method='post'> <input type='submit' value='logout'> </form>" ;?>
 <section id="blabla">
 <h1> fabriker 1 post </h1>
     <form action="create1.php" method="post">

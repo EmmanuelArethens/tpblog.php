@@ -11,4 +11,6 @@ if(isset($_POST['user'])
     fwrite($new_file, $crypt);
     fclose($new_file);
 }
+
+echo "<a href='index.php'> retour a l'index </a>";
 ?>

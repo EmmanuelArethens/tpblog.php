@@ -19,4 +19,6 @@
         }
     }
 
+echo "<a href='index.php'> retour a l'index </a>";
+
     ?>
